@@ -1,0 +1,42 @@
+{
+  "name": "express-stylus",
+  "version": "0.1.0",
+  "description": "Express middleware for Stylus",
+  "license": "MIT",
+  "author": {
+    "name": "Doğan Çelik",
+    "email": "dogancelik93@gmail.com"
+  },
+  "keywords": [
+    "express",
+    "stylus",
+    "middleware"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dogancelik/express-stylus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dogancelik/express-stylus/issues"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "stylus": "^0.52.0"
+  },
+  "devDependencies": {
+    "nib": "^1.1.0",
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.3",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  },
+  "scripts": {
+    "prepublish": "coffee -bo lib/ src/",
+    "test": "node_modules/.bin/mocha"
+  }
+}

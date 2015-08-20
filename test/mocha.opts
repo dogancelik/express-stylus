@@ -1,0 +1,4 @@
+--ui bdd
+--compilers coffee:coffee-script/register
+--timeout 20000
+--reporter spec
