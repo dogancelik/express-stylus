@@ -14,7 +14,8 @@
   ],
   "main": "lib/index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/dogancelik/express-stylus/issues"
   },
+  "homepage": "https://github.com/dogancelik/express-stylus",
   "dependencies": {
     "debug": "^2.2.0",
     "stylus": "^0.52.0"
