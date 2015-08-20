@@ -1,4 +1,4 @@
-# express-stylus
+# express-stylus [![Build Status](https://travis-ci.org/dogancelik/express-stylus.svg)](https://travis-ci.org/dogancelik/express-stylus)
 Extended version of Stylus middleware with support for `use` and `import` inside options.
 
 ## Install
