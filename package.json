@@ -1,6 +1,6 @@
 {
   "name": "express-stylus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware for Stylus",
   "license": "MIT",
   "author": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/dogancelik/express-stylus",
   "dependencies": {
     "debug": "^2.2.0",
-    "stylus": "^0.52.0"
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
     "nib": "^1.1.0",
